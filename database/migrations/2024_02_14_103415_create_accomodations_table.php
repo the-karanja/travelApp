@@ -18,10 +18,7 @@ class CreateAccomodationsTable extends Migration
             $table->timestamps();
             $table->string('name');
             $table->text('description')->nullable();
-            $table->dateTime('start_date');
-            $table->dateTime('end_date');
             $table->decimal('rack_rate', 10, 2);
-            $table->timestamps();
         });
     }
 

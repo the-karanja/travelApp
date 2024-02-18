@@ -9,11 +9,8 @@ class Accomodations extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'name', 'description', 'start_date', 'end_date', 'rack_rate',
+        'name', 'description','rack_rate',
     ];
 
-    protected $casts = [
-        'start_date' => 'datetime',
-        'end_date' => 'datetime',
-    ];
+
 }
