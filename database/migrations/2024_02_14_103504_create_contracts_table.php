@@ -21,7 +21,7 @@ class CreateContractsTable extends Migration
             $table->dateTime('start_date');
             $table->dateTime('end_date');
             $table->decimal('contract_rate', 10, 2);
-            $table->timestamps();
+
         });
     }
 
