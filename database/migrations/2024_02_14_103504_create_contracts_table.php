@@ -20,7 +20,7 @@ class CreateContractsTable extends Migration
             $table->text('description')->nullable();
             $table->dateTime('start_date');
             $table->dateTime('end_date');
-            $table->decimal('rack_rate', 10, 2);
+            $table->decimal('contract_rate', 10, 2);
             $table->timestamps();
         });
     }
